@@ -1,4 +1,5 @@
-import express from "express";
+/* eslint-env es6 */
+const express = require('express');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
