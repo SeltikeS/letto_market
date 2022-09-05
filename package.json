@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "npx eslint . --fix --color && stylelint **/*.scss --fix --color",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --configuration production"
   },
   "private": true,
   "dependencies": {
