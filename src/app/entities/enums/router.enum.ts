@@ -1,0 +1,16 @@
+export enum RouterPaths {
+	MAIN = 'main',
+	CATALOG = 'catalog',
+	AUTH = 'auth',
+	ORDERS = 'orders',
+	PREMIUM = 'premium',
+	CHATS = 'chats',
+	FAVORITES = 'favorites',
+	PROFILE = 'profile',
+	PRODUCT_CARD = 'product-card',
+	ADMIN_PANEL = 'admin-panel',
+	TERMS_AND_CONDITIONS = 'terms-and-conditions',
+	TERMS_OF_USE = 'terms-of-use',
+	FAQ = 'FAQ',
+	NEWS = 'news',
+}
